@@ -1,0 +1,54 @@
+body {
+    background: url(images/sky.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: ;
+    padding: 30px;
+    border: 3px solid yellowgreen;
+    border-radius: 30px;
+    border-style: dashed;
+    box-shadow: 3px 3px rgba(255, 255, 255, 0.334);
+    -webkit-text-fill-color: yellowgreen;
+}
+
+input[type=text], input[type=date], input[type=number], select, textarea {
+    width: 80vw;
+}
+
+.buttonWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    width: 100px;
+    border: none;
+    padding: 5px 0 5px 0;
+} 
+
+.judul {
+    padding-bottom: 10px;
+    border-bottom: 3px solid;
+    width: 80vw;
+    text-align: center;
+    border-bottom-style: dashed;
+}
+
+span, .judul {
+    color: white;
+}
+
+audio {
+    transform: scale(0.90);
+}
