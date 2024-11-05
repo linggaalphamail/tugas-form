@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form lingling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <p class="judul">Formulir Anggota Perpustakaan</p>
+        <form action="">
+            <span>Nama</span> <br>
+            <input type="text" placeholder="isi nama kamu" name="nama" id="nama">
+
+            <br>
+            <br>
+
+            <span>Kota Lahir</span> <br>
+            <input type="text" placeholder="isi kota lahirmu" list="lahir" name="kota" id="kota">
+            <datalist id="lahir">
+                <option value="Semarang">Semarang</option>
+                <option value="Demak">Demak</option>
+                <option value="Jakarta">Jakarta</option>
+                <option value="yogyakarta">yogyakarta</option>
+                <option value="antartika">antartika</option>
+                <option value="ungaran">ungaran</option>
+            </datalist>
+
+            <br>
+            <br>
+            
+            <span>Tanggal Lahir</span> <br>
+            <input type="date" name="tanggal" id="tanggal">
+
+            <br>
+            <br>
+
+            <span>Gender</span> <br>
+            <input type="radio" name="gender" value="laki" id="gender"> <span>laki</span>
+            <input type="radio" name="gender" value="perempuan" id="perempuan"> <span>perempuan</span>
+            <br>
+            <br>
+
+                <audio controls autoplay>
+                    <source src="images/index.m4a">
+                </audio>
+
+            <br>
+            <br>
+
+            <span>No Telepon</span> <br>
+            <input type="number" name="telepon" id="telepon" placeholder="isi no telp">
+
+            <br>
+            <br>
+
+            <span>Makanan Favorit</span> <br>
+            <input type="checkbox" name="makanan" id="makanan" value="nasiGoreng"> <span>Nasi Goreng</span>
+            <input type="checkbox" name="makanan" id="makanan" value="mieGoreng"> <span>Mie Goreng</span>
+
+            <br>
+            <br>
+
+            <span>Agama</span> <br>
+            <select name="agama" id="agama">
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Katolik">Katolik</option>
+                <option value="hindu">hindu</option>
+                <option value="buddha">buddha</option>
+                <option value="konghucu">konghucu</option>
+                <option value="alok 99 dm">alok 99 dm</option>
+            </select>
+
+        
+            <br>
+            <br>
+
+            <span>Alamat Rumah</span> <br>
+            <textarea name="alamat" id="alamat" cols="20"
+            rows="2"></textarea>
+
+            <br>
+            <br>
+
+        <div class="buttonWrap">
+            <button type="submit" name="submit" id="submit">submit</button>
+            <button type="reset" name="reset" id="reset">reset</button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

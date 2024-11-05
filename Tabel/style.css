@@ -1,0 +1,42 @@
+body {
+    background: url(images/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    }
+
+.box {
+    text-align: center;
+    background-color: rgb(40, 93, 119);
+    border: solid;
+    border-style: dashed;
+    border-radius: 25px;
+    border-color: white;
+    box-shadow: 4px 4px rgba(255, 255, 255, 0.341);
+    padding: 20px;
+    -webkit-text-fill-color:yellow;
+      }
+
+p {
+    color: white;
+   }
+
+table, td, th {
+    border-collapse: collapse;
+    border: 2px solid;
+    text-align: center;
+    color: rgb(187, 175, 233);
+  }
+
+table {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    border: solid;
+    border-style: dashed;
+    height: 80vh;
+  }  
+
+td, th, tr {
+    width: 100vh;
+  }
